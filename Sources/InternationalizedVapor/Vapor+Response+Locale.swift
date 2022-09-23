@@ -1,7 +1,7 @@
 import SwiftLocale
 import Vapor
 
-extension Vapor.Response {
+extension Vapor.Request {
 
    public var locale: SwiftLocale.Locale {
        get throws {
