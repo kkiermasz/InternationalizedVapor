@@ -4,6 +4,13 @@ Internationalizes your Vapor's HTTP requests by wrapping Unciode's [ICU4C](https
 
 ICU4C's wrapper which provides `Foundation`-free `Locale` stands as a [separate library](https://github.com/kkiermasz/SwiftLocale).
 
+## Description
+
+For example, a browser sends the web server the HTTP `Accept-Language` header indicating which locales, with a ranking, are acceptable to the user.
+The server must determine which locale to use when returning content to the user.
+
+The negotiation result for `ja;q=0.5, en-us;q=0.8, tlh` will be 'en_US`.
+
 ## Usage example
 
 ```swift
