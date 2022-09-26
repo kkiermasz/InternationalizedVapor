@@ -9,7 +9,7 @@ ICU4C's wrapper which provides `Foundation`-free `Locale` stands as a [separate 
 For example, a browser sends the web server the HTTP `Accept-Language` header indicating which locales, with a ranking, are acceptable to the user.
 The server must determine which locale to use when returning content to the user.
 
-The negotiation result for `ja;q=0.5, en-us;q=0.8, tlh` will be 'en_US`.
+The negotiation result for `ja;q=0.5, en-us;q=0.8, tlh` will be `en_US`.
 
 ## Usage example
 
