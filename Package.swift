@@ -24,7 +24,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/kkiermasz/SwiftLocale.git",
-            from: "2.0.0"
+            from: "3.0.0"
         )
     ],
     targets: [
