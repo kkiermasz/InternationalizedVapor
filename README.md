@@ -1,8 +1,8 @@
 # InternationalizedVapor
 
-Internationalizes your Vapor's HTTP requests by wrapping Unciode's [ICU4C](https://github.com/unicode-org/icu).
+Internationalizes your Vapor's HTTP requests by wrapping the [swift-foundation-icu](https://github.com/apple/swift-foundation-icu).
 
-ICU4C's wrapper which provides `Foundation`-free `Locale` stands as a [separate library](https://github.com/kkiermasz/SwiftLocale).
+Wrapper which provides `NSFoundation`-free `Locale` stands as a [separate library](https://github.com/kkiermasz/SwiftLocale).
 
 ## Description
 
